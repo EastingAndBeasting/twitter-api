@@ -1,0 +1,58 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+/* Reset padding/margin/box-sizing */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, input, ins, kbd, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, figure, figcaption, footer, header, hgroup, menu, nav, section {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* html and body */
+html, body {
+	width: 100%;
+	height: 100%;
+  background: #279bcc;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* Twitter feed */
+.twitterfeed {
+  max-width: 444px;
+  margin: 0 auto;
+	padding: 1em;
+  padding-top: 2em;
+}
+.twitterfeed h1 {
+	position: relative;
+	text-align: center;
+	font-weight: 400;
+  color: white;
+}
+.twitterfeed h1:before {
+	content: "\f099";
+	font-family: FontAwesome;
+	position: absolute;
+	left: 0;
+}
+.twitterfeed ul {
+  padding: 1em 0;
+  list-style-type: none;
+}
+.twitterfeed ul li {
+  padding: 2em;
+  line-height: 160%;
+  color: #444;
+  background-color: #f8f8f8;
+  box-shadow: 0 5px 7px rgba(0,0,0,0.25);
+}
+.twitterfeed .tweet-date {
+  font-weight: 500;
+  color: #333;
+}
+.twitterfeed a {
+  color: #0085ff;
+  text-decoration: none;
+}
